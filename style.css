@@ -1,0 +1,170 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.base {
+  margin: 0 115px;
+  display: flex;
+}
+
+.im1 {
+  width: 521px;
+  height: 110vh;
+}
+
+.over {
+  width: 300px;
+  height: 180px;
+  background-color: white;
+  font-family: Roboto, sans-serif;
+  font-weight: 500;
+  font-size: 250%;
+  text-align: center;
+  padding-top: 50px;
+  position: absolute;
+  top: 317px;
+  left: 367px;
+  box-shadow: 1px 0 20px rgba(122, 122, 122, 0.5);
+}
+
+.u-line {
+  cursor: pointer;
+  font-size: initial;
+  font-weight: 600;
+  border-bottom: 2px solid black;
+  padding-bottom: 3px;
+}
+
+.im-goods1,
+.im-goods2,
+.im-goods3,
+.im-goods4 {
+  width: 170px;
+  height: 200px;
+}
+
+.part2 {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: right;
+  justify-content: center;
+  align-content: flex-start;
+  font-family: "Open Sans", sans-serif;
+}
+
+.goods1,
+.goods2,
+.goods3,
+.goods4 {
+  width: 45%;
+  margin: 33px 0 0 30px;
+}
+
+.price1,
+.price2,
+.price3,
+.price4 {
+  text-align: left;
+  margin: 15px 0;
+}
+
+.desc-n1,
+.desc-n2,
+.desc-n3,
+.desc-n4 {
+  line-height: 140%;
+}
+
+@media (max-width: 1024px) {
+  .base {
+    margin: 0 10px 0 80px;
+  }
+  .im1 {
+    width: 480px;
+    height: 100vh;
+  }
+  .im-goods1,
+  .im-goods2,
+  .im-goods3,
+  .im-goods4 {
+    width: 140px;
+    height: 165px;
+  }
+  .goods1,
+  .goods2,
+  .goods3,
+  .goods4 {
+    width: 43%;
+  }
+  .part2 {
+    align-content: stretch;
+  }
+  .over {
+    padding-top: 34px;
+    width: 267px;
+    height: 160px;
+    top: 287px;
+    left: 310px;
+  }
+}
+
+@media (max-width: 768px) {
+  .base {
+    margin: 0;
+  }
+  .im1 {
+    width: 520px;
+  }
+  .im-goods1,
+  .im-goods2,
+  .im-goods3,
+  .im-goods4 {
+    width: 80px;
+    height: 94px;
+  }
+  .goods1,
+  .goods2,
+  .goods3,
+  .goods4 {
+    margin: 15px 0 0 15px;
+  }
+  .over {
+    top: 420px;
+    left: 280px;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .base {
+    display: block;
+  }
+  .im1 {
+    width: 100%;
+    height: 80vh;
+  }
+  .im-goods1,
+  .im-goods2,
+  .im-goods3,
+  .im-goods4 {
+    width: 180px;
+    height: 211px;
+  }
+  .goods1,
+  .goods2,
+  .goods3,
+  .goods4 {
+    margin: 15px 0 0 25px;
+  }
+  .over {
+    top: 514px;
+    left: 140px;
+    width: 220px;
+    height: 132px;
+    font-size: 190%;
+    box-shadow: 0 1px 20px rgba(122, 122, 122, 0.5);
+  }
+  .part2 {
+    justify-content: stretch;
+  }
+}
